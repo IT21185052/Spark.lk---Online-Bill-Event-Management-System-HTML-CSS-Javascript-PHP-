@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: url(images/backgroundreg.jpeg) no-repeat;
+	background-size:cover;
+	align-items: center;
+	justify-content: center;
+	display: grid;
+	font-family: sans-serif;
+}
+.container{
+	position: relative;
+	margin-top: 100px;
+	width: 650px;
+	height: auto;
+	background: #b3b3c1;
+	border-radius: 50px;
+	align-content:center;
+	padding: 1rem 1rem;
+}
+.logo{
+	align-items: center;
+}
+.label{
+	padding: 50px 50px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #40379c;
+	align-items: center;
+}
+.login_form{
+	padding: 20px 140px;
+}
+.login_form .font{
+	font-size: 18px;
+	color: #130f40;
+	margin: 5px 0;
+	font-family: monospace;
+}
+.shape{
+	border:2px;
+	border-radius: radius;
+	color: rgb(43, 56, 192);
+	outline: none;
+	padding: 2px;
+}
+.error{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.submitbtn{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 200px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #1A237E;
+	border-radius: 3px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+.login_form input{
+	height: 20px;
+	width: 350px;
+	padding: 1px 5px;
+	font-size: 14px;
+	outline: none;
+	border: 1px solid silver;
+	border-radius: 5px ;
+	align-content: center;
+	justify-content: center;
+}
+
+.login_form button{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #1A237E;
+	border-radius: 3px;
+	border: 1px solid #3949AB;
+	transition: .5s;
+}
+.login_form .submitbtn:hover{
+	background: #3b47c6;
+}
+form{
+	padding: 1rem 1rem;
+	z-index: 50;
+	overflow: hidden;
+	position: relative;
+}
+
+
+

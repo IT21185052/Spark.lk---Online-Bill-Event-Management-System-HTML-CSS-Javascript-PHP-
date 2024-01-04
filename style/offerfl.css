@@ -1,0 +1,138 @@
+
+/* 1 */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.slider{
+	position: relative;
+	width: 100%;
+	background: #a0a9b1;
+}
+.myslide{
+	height: 655px;
+	display: none;
+	overflow: hidden;
+}
+
+.prev, .next{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-size: 50px;
+	padding: 15px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.5s;
+	user-select: none;
+}
+.prev:hover, .next:hover{
+	color: #e90f30; 
+}
+.next{
+	right: 0;
+}
+.prev{
+	left: 0;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: 0.8}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.8}
+  to {opacity: 1}
+}
+/* /muslide add fade */
+
+/* 3 */
+.txt{
+	position: absolute;
+	color: rgb(18, 5, 5);
+	letter-spacing: 2px;
+	line-height: 35px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: monospace;
+	top: 5%;
+	left: 60%;
+	right: 10%;
+  	animation-duration: 2s;
+	z-index: 1;
+}
+.txt1{
+	position: absolute;
+	color: rgb(245, 241, 241);
+	letter-spacing: 2px;
+	line-height: 35px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: monospace;
+	top: 10%;
+	left: 30%;
+	right: 30%;
+	
+  	animation-duration: 2s;
+	z-index: 1;
+}
+.txt2{
+	position: absolute;
+	color: rgb(9, 9, 9);
+	letter-spacing: 2px;
+	line-height: 35px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 50%;
+	left: 5%;
+	
+	
+  	animation-duration: 2s;
+	z-index: 1;
+}
+
+
+.txt p{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.txt1 p{
+	font-weight: bold;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.txt2 h4{
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+	transform: scale(1, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

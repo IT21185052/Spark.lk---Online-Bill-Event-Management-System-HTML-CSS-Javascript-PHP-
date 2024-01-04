@@ -1,0 +1,58 @@
+<?php
+include_once 'include/connection.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Delivery Information Form</title>
+	<link rel="stylesheet" href="style.css">
+	
+	
+</head>
+<body>
+
+    
+</div>
+	<div class="container">
+		<div class ="logo">
+			<img src ="images/sparkl.png" width="180" hight="150" alt ="logo">
+		</div>
+		<h2 class="label">Delivery Information</h2>
+		<form  action="info.php" method="POST" class="login_form" name="form"onsubmit="return validated()">
+			<div class="form-group">
+
+			<div class="font">Full Name</div>
+			<input autocomplete="off" class="shape" type="text" name="FullName" required="required">
+
+			<div class="font">Email Address</div>
+			<input autocomplete="off" class="shape" type="text" name="EmailAddress" required="required">
+			<div class="error" id="email_error">Please fill up your Email</div>
+
+			<div class="font">Address Line 1</div>
+			<input autocomplete="off" class="shape" type="text" name="AddressLine1" required="required">
+
+			<div class="font">Address Line 2</div>
+			<input autocomplete="off" class="shape" type="text" name="AddressLine2">
+
+			<div class="font">Province</div>
+			<input autocomplete="off" class="shape" type="text" name="Province" required="required">
+
+			<div class="font">City</div>
+			<input autocomplete="off" class="shape" type="text" name="City">
+
+			<div class="font">District</div>
+			<input autocomplete="off" class="shape" type="text" name="District" required="required">
+
+			<div class="font">Postal Code</div>
+			<input autocomplete="off" class="shape" type="number" name="PostalCode" required="required">
+			<div class="error" id="passcode_error">Please fill up your Postal code</div>
+        
+			<center><a href="payment.html">
+			<button type = "button" class = "btn" >submit</button></a></center>
+		</form>
+	</div>	
+	<script src="deliver.js"></script>
+	    
+</body>
+</html>
